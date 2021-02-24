@@ -1,0 +1,663 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    --red-color:rgb(254,69,54);
+    --black-color:rgb(19,19,19);
+    --bg-color:rgb(245,245,245);
+    --btnBd-color:rgb(233,236,208);
+    --btnBG-color:rgb(52,58,64);
+    --head-color:rgb(33,33,33);
+    --white-color:rgb(255,255,255);
+}
+/* starting navbar */
+.navbar{
+    background-color: var(--bg-color)!important;
+    border: none!important;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: var(--black-color)!important;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link i{
+    color: var(--black-color)!important;
+    background-color: rgb(236,236,239)!important;
+    border: 1px solid rgb(236,236,239)!important;
+    border-radius: 100%!important;
+    padding: 10px;
+    vertical-align: middle;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link i:hover{
+    color: var(--red-color)!important;
+    background-color: var(--btnBG-color)!important;
+    border: 1px solid var(--btnBG-color)!important;
+    transition: .5s ease;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+/* end navbar */
+/* starting slider */
+/* margin frombottom */
+.carousel-inner {
+    margin-bottom: 50px;
+}
+/* align text */
+.carousel-inner .cap-1{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    z-index: 1;
+    line-height: 0px;
+}
+/* style text p */
+.carousel-inner .cap-1 p, .carousel-inner .cap-2 p, .carousel-inner .cap-3 p{
+    text-transform: uppercase;
+    color: var(--red-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+/* style text heading */
+.carousel-inner .cap-1 h2{
+    text-transform: capitalize;
+    color: var(--head-color);
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* style caraousel-inner button */
+.carousel-inner button{
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+.carousel-inner button:hover{
+    background-color: var(--btnBG-color);
+}    
+/* styling second carosel */
+.carousel-inner .cap-2{
+    position: absolute;
+    top: 20%;
+}
+/* style second carosel heading */
+.carousel-inner .cap-2 h2{
+    text-transform: capitalize;
+    color: var(--head-color);
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* style button */
+.carousel-inner .cap-2 button{
+    padding: 12px 35px;
+}
+/* style third carosel */
+.carousel-inner .cap-3{
+    position: absolute;
+    top: 20%;
+    right: 70%;
+}
+/* third carosel p */
+.carousel-inner .cap-3 p{
+    text-transform: uppercase;
+    color: var(--red-color);
+    font-weight: bold;
+    font-size: 20px;
+    width: 260px;
+}
+/* style second carosel heading */
+.carousel-inner .cap-3 h2{
+    text-transform: capitalize;
+    color: var(--head-color);
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 370px;
+    margin-left: -50px;
+}
+/* style button */
+.carousel-inner .cap-3 button{
+    padding: 12px 35px;
+}
+/* for carosel indicator */
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px!important;
+    height: 20px!important;
+    margin-right: 3px;
+    margin-left: 3px;
+    border-radius: 20px!important;
+    text-indent: -999px;
+    background-color: rgba(255,255,255,.5);
+}
+/* start third section */
+/* all banners styling,bg and all */
+.banner-1,.banner-2,.banner-3{
+    background-color: var(--bg-color);
+    border: 1px solid var(--bg-color);
+    height: 180px;
+    /* padding: 10px; */
+    margin-bottom: 100px;
+}
+/* banner1 text1 ki position */
+.banner-1 .text1{
+    position: absolute;
+    top: 5%;
+    left: 55%;
+}
+/*banner1 text1 ki paragraph  */
+.banner-1 .text1 p, .banner-2 .text2 p,.banner-3 .text3 p{
+    text-transform: capitalize;
+    color: var(--red-color);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 0px;
+    padding-top: 8px;
+}
+/*banner1 text1 ki heading  */
+.banner-1 .text1 h3,.banner-2 .text2 h3,.banner-3 .text3 h3{
+    text-transform: capitalize;
+    color: var(--black-color);
+    font-weight: bold;
+}
+/*banner1 text1 ka button  */
+.banner-1 .text1 button{
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+/* hover */
+.banner-1 .text1 button:hover{
+    background-color: var(--btnBG-color);
+    cursor: pointer;
+}
+/*banner1 text2 */
+.text2{
+    position: absolute;
+    left: 5%;
+    top: 7%;
+}
+/*banner1 text2 img ki position */
+.text-2-img{
+    position: relative;
+    left: 65%;
+}
+/*banner1 text2 ka button  */
+.banner-2 .text2 button,.banner-3 .text3 button{
+    background-color: rgb(236,236,239);
+    color: var(--black-color);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+/* hover */
+.banner-2 .text2 button:hover,.banner-3 .text3 button:hover{
+    background-color: var(--btnBG-color);
+}
+/* banner text3 start */
+.text3{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+/* end of third section */
+/* start of fourth section */
+/* tabtext h2 */
+.container .row .tab-text h2{
+    color: var(--black-color);
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* tabtext p */
+.container .row .tab-text p{
+    color: var(--btnBG-color);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+/* tabs styling */
+.nav-pills{
+    margin-left: 100px;
+}
+/* styling navitem for seperate box */
+.nav-item{
+    margin-left: 10px;
+}
+/* navlink */
+.nav-pills .nav-item .nav-link{
+    color: var(--white-color)!important;
+    background-color: var(--red-color)!important;
+    text-transform: uppercase;
+    padding: 8px 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-pills .nav-item .nav-link:hover{
+    background-color: var(--btnBG-color)!important;
+}
+/* active */
+.nav-pills .nav-item .nav-link.active{
+    background-color: var(--btnBG-color)!important;
+    color: var(--white-color)!important;
+}
+/* navpills */
+.tab-img-1 .product-wrapper img{
+    margin-right: 100px;
+}
+/* product-title-spread p*/
+.product-title-spread p{
+    color: var(--btnBG-color);
+    margin-top: 3px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+/* product-title-spread h4*/
+.product-title-spread h4{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: var(--black-color);
+    font-size: 17px;
+}
+/* product-title-spread h4 hover*/
+.product-title-spread h4:hover{
+    color: var(--red-color);
+    cursor: pointer;
+}
+/* product price */
+.product-price span{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--red-color);
+    margin-right: 5px;
+}
+/* product price */
+.product-price del{
+    color: var(--black-color);
+    font-weight: 600;
+}
+/* product price */
+.product-price i{
+    margin-left: 110px;
+    color: var(--black-color);
+    padding: 5px;
+}
+/* product price */
+.product-price i:hover{
+    color: var(--white-color);
+    border-radius: 100%;
+    transition:all .5s ease;
+    border: 1px solid var(--btnBG-color);
+    background-color: var(--btnBG-color);
+}
+/* end fourth section */
+/* start fifth section */
+/* secial-offer styling bg-image  and all */
+.special-offer{
+    background-image: url("./images/furniture-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height: 600px;
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+/* special-offer-text styling */
+.special-offer-text{
+    text-align: center;
+}
+/* special-offer-text styling h4 */
+.special-offer-text h4{
+    color: var(--red-color);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* special-offer-text styling h1 */
+.special-offer-text h1{
+    color: var(--black-color);
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+/* special-offer-text styling p */
+.special-offer-text p{
+    color: var(--black-color);
+    letter-spacing: 0.75px;
+    width: 700px;
+}
+/* special-offer-text styling button */
+.special-offer-text button{
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+.special-offer-text button:hover{
+    background-color: var(--btnBG-color);
+}
+/* end fifth section */
+/* start six section */
+.arrow-margin{
+    margin-bottom: 150px;
+}
+/* left arrow  */
+.arrows .nav-item .nav-link{
+   color: var(--btnBG-color)!important;
+   background-color: transparent!important;
+   border: none!important;
+}
+/* right arrow */
+.arrows .nav-item .nav-link.active{
+    color: var(--btnBG-color)!important;
+    background-color: transparent!important;
+    border: none!important;
+}
+/* img for margin */
+.leftArrow .product-wrapper img,.rightArrow .product-wrapper img{
+    margin-right: 100px;
+}
+/* div styling */
+.leftArrow .product-content-wrapper,.rightArrow .product-content-wrapper{
+    position: absolute;
+    bottom: -10%;
+    left: 10%;
+    padding: 20px;
+    width: 400px;
+    background-color: var(--bg-color);
+}
+/* button */
+.leftArrow .product-price button,.rightArrow .product-price button{
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    display: block;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.leftArrow .product-price button:hover,.rightArrow .product-price button:hover{
+    background-color: var(--btnBG-color);
+}
+/* end six session */
+/* start seven section */
+.spring-sale{
+    background-color: var(--bg-color);
+    margin-bottom: 80px;
+}
+.spring-sale .product-wrapper,.second .product-wrapper,.third .product-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.spring-sale .product-title-spread{
+    margin-left: 80px;
+}
+.product-title-spread h5{
+    color: var(--red-color);
+    text-transform: capitalize;
+    margin-bottom: 3px;
+}
+.product-title-spread h1{
+    color: var(--black-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+}
+.product-title-spread span{
+    color: var(--red-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+.product-title-spread button{
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+}
+.product-title-spread button:hover{
+    background-color: var(--btnBG-color);
+    cursor: pointer;
+}
+.spring-sale-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spring-sale-circle .nav-item .nav-link{
+    background-color: transparent!important;
+    border: none!important;
+}
+.spring-sale-circle .nav-item .nav-link.active{
+    background-color: transparent!important;
+    border: none!important;
+    color: var(--red-color)!important;
+}
+.spring-sale-circle .nav-item .nav-link i{
+    color: var(--red-color)!important;
+    margin-left: -25px;
+}
+/* start eight section */
+/* for image setting */
+.blog .product-wrapper img{
+    margin-right: 10px;
+}
+/* for margin */
+.news-margin{
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
+}
+/* for newstwxt heading */
+.news-text h2{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: var(--black-color);
+}
+/* for newstwxt paragraph*/
+.news-text p{
+ color: var(--btnBG-color);
+ text-transform: capitalize;
+ letter-spacing: 1;
+ font-weight: 300;
+}
+/* styling for circle */
+.circle .nav-item .nav-link{
+    background-color: transparent!important;
+    border: none!important;
+}
+.circle .nav-item .nav-link.active{
+    background-color: transparent!important;
+    border: none!important;
+}
+.circle .nav-item .nav-link i{
+    color: var(--red-color)!important;
+    margin: 0px;
+}
+/* end of eight section */
+/* start nine section */
+.brand{
+    margin-left: 150px;
+    margin-right: 170px;
+}
+.brand img{
+    margin-right: 50px;
+}
+.brand-carosel .carousel-indicators li{
+    position: absolute;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px!important;
+    height: 20px!important;
+    margin-right: 3px;
+    margin-left: 3px;
+    border-radius: 20px!important;
+    text-indent: -999px;
+    background-color: rgba(255,255,255,.5);
+    bottom: -10px!important;
+    color: var(--red-color)!important;
+}
+/* end */
+/* start ten section */
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+    padding: 30px;
+}
+.newsletter-text{
+    text-align: center;
+}
+.newsletter-text h6{
+    color: var(--red-color);
+    text-transform: capitalize;
+}
+.newsletter-text h2{
+    color: var(--black-color);
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 40px;
+}
+.newsletter-text p{
+    width: 600px;
+    color: var(--black-color);
+}
+.input-group input{
+    border-radius: 20px;
+}
+.input-group button{
+    background-color: var(--red-color)!important;
+    color: var(--white-color)!important;
+    border-radius: 20px;
+    padding: 10px 35px;
+    border: none!important;
+    cursor: pointer;
+}
+.input-group button:hover{
+    background-color: var(--btnBG-color)!important;
+}
+/* end */
+/* start footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(236,236,239);
+    padding: 10px;
+    font-size: 13px;
+    letter-spacing: 0.75px;
+}
+.footer-text{
+    margin-left: -50px;
+}
+span:nth-child(2):hover,span:last-child:hover{
+    cursor: pointer;
+    color: var(--red-color);
+} 
+.footer-icons{
+    margin-left: 50px;
+}
+.footer .footer-icons i{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.footer .footer-icons i:hover{
+    color: rgb(71,154,241);
+}
+/* end of footer */
+/* start top */
+.top-icon a i{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    padding: 10px 15px;
+    transition: all .5s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.top-icon a i:hover{
+    background-color: var(--btnBG-color);
+}
+/* end top */
+/* start fixed button */
+.fixed-button{
+    position: fixed;
+    top: 30%;
+    right: 0;
+}
+.fixed-button p{
+    background-color: var(--red-color);
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fixed-button p:hover{
+    background-color: var(--btnBG-color);
+}
+.fixed-button i{
+    background-color: var(--btnBG-color);
+    color: var(--white-color);
+    font-size: 14px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+.fixed-button i:hover{
+    background-color: var(--red-color);
+}

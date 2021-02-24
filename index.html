@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUNDOL</title>
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FAVICON LINK -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png">
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- starting navbar -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand ml-5" href="#"><img src="./images/logo.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link p-2 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Home </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="#" class="dropdown-item">1- Furniture</a>
+                        <a href="#" class="dropdown-item">2- Fashion</a>
+                        <a href="#" class="dropdown-item">3- Electronics</a>
+                        <a href="#" class="dropdown-item">4- Grocery</a>
+                        <a href="#" class="dropdown-item">5- Cosmetics</a>
+                        <a href="#" class="dropdown-item">6- Shoes</a>
+                        <a href="#" class="dropdown-item">7- Glasses</a>
+                        <a href="#" class="dropdown-item">8- Flowers</a>
+                        <a href="#" class="dropdown-item">9- Jewellery</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shop </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">SHOP PAGES</a>
+                        <a class="dropdown-item" href="#">shop grid 2 columns</a>
+                        <a class="dropdown-item" href="#">shop grid 3 columns</a>
+                        <a class="dropdown-item" href="#">shop grid 4 columns</a>
+                        <a class="dropdown-item" href="#">shop grid 6 columns</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Product
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">PRODUCT DETAIL PAGES</a>
+                        <a class="dropdown-item" href="#">Left Carousel</a>
+                        <a class="dropdown-item" href="#">Right Carousel</a>
+                        <a class="dropdown-item" href="#">Vertical Carousel</a>
+                        <a class="dropdown-item" href="#">Right Banner</a>
+                        <a class="dropdown-item" href="#">Best Seller</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Elements </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Product Cards
+                        </a>
+                        <a class="dropdown-item" href="#"> Banners</a>
+                        <a class="dropdown-item" href="#"> Blog Style</a>
+                        <a class="dropdown-item" href="#"> Typography</a>
+                        <a class="dropdown-item" href="#"> Title</a>
+                        <a class="dropdown-item" href="#"> Tabs</a>
+                        <a class="dropdown-item" href="#"> Accordions</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pages </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">404 Page
+                        </a>
+                        <a class="dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"> About
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="#" class="dropdown-item">About Page 1</a>
+                                <a href="#" class="dropdown-item">About Page 2</a>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"> Contact
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="#" class="dropdown-item">Contact Page 1</a>
+                                <a href="#" class="dropdown-item">Contact Page 2</a>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"> Blog
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="#" class="dropdown-item">Blog Page 1</a>
+                                <a href="#" class="dropdown-item">Blog Page 2</a>
+                                <a href="#" class="dropdown-item">Blog Page 3</a>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"> Login
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="#" class="dropdown-item">Login Page 1</a>
+                                <a href="#" class="dropdown-item">Login Page 2</a>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="#">Signup</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav mr-5">
+                <li class="nav-item dropdown mt-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        EN </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">En</a>
+                        <a class="dropdown-item" href="#">Ar</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mt-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        USD </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">USD</a>
+                        <a class="dropdown-item" href="#">AED</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-shopping-basket"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end of navbar -->
+
+    <!-- start of slider -->
+
+    <div id="carouselExampleIndicators top" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item position-relative active">
+                <img class="d-block w-100" src="./images/Slider_01.jpg" alt="First slide">
+                <div class="carousel-caption cap-1 d-none d-md-block">
+                    <p>get 50% off</p>
+                    <h2>bed design for <br> bed room</h2>
+                    <button>shop now</button>
+                </div>
+            </div>
+            <div class="carousel-item position-relative">
+                <img class="d-block w-100" src="./images/Slider_02.jpg" alt="Second slide">
+                <div class="carousel-caption cap-2 d-none d-md-block">
+                    <p>get quality furniture</p>
+                    <h2>tv lounge decorate <br> with furniture</h2>
+                    <button>shop now</button>
+                </div>
+            </div>
+            <div class="carousel-item position-relative">
+                <img class="d-block w-100" src="./images/Slider_03.jpg" alt="Third slide">
+                <div class="carousel-caption cap-3 d-none d-md-block">
+                    <p>get quality products</p>
+                    <h2>pink stylish <br> furniture Chair</h2>
+                    <button>shop now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of slider -->
+
+    <!-- start of section card -->
+
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-md-4 banner-1">
+                <img src="./images/banner_image_1.png" class="position-relative img-fluid" alt="">
+                <div class="text1">
+                    <p>Get 50% OFF</p>
+                    <h3>Spring Collection</h3>
+                    <button>shop now</button>
+                </div>
+            </div>
+            <div class="col-md-3 banner-2">
+                <div class="text2">
+                    <p>Geostrock</p>
+                    <h3>Get 37% <br> OFF</h3>
+                    <button>apply code</button>
+                </div>
+                <img src="./images/banner_image_2.png" class="text-2-img" alt="">
+            </div>
+            <div class="col-md-4 banner-3">
+                <img src="./images/banner_image_3.png" class="position-relative img-fluid" alt="">
+                <div class="text3">
+                    <p>Exclusive Design</p>
+                    <h3>Minimal <br> Chair</h3>
+                    <button>available</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of section card -->
+
+    <!-- start of tab section -->
+
+    <div class="container">
+        <div class="row d-flex justify-content-around">
+            <div class="tab-text col-md-6">
+                <h2>brand new products</h2>
+                <p>lorem ipsum dolor sit amet, consectetur</p>
+            </div>
+            <div class="section-title col-md-6">
+                <!-- Nav pills -->
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link nav-tabs active" data-toggle="pill" href="#home">view all</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-tabs" data-toggle="pill" href="#menu1">table lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-tabs" data-toggle="pill" href="#chair">chair</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row carousel-item d-flex justify-content-around">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <div class="container ">
+                            <div class="row tabrow">
+                                <div class="col-md-3 tab-img-1 p-0">
+                                    <div class=" product-wrapper">
+
+                                        <img src="./images/product_image_1.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>modern single sofa</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 p-0 ">
+                                    <div class=" product-wrapper">
+
+                                        <img src="./images/product_image_2.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>modern wood chair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 p-0">
+                                    <div class="product-wrapper">
+
+                                        <img src="./images/product_image_3.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>white plastic chair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <div class="product-wrapper">
+
+                                        <img src="./images/product_image_4.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>black plastic chair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu1" class="container tab-pane fade mb-6"><br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 p-0">
+                                    <div class="bg-light product-wrapper">
+
+                                        <img src="./images/product_image_5.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>yellow armless chair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <div class="bg-light product-wrapper mx-2">
+
+                                        <img src="./images/product_image_6.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>white folding chair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <div class="bg-light product-wrapper mx-2">
+
+                                        <img src="./images/product_image_7.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>leather 2-seat sofa</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <div class="bg-light product-wrapper mx-2">
+
+                                        <img src="./images/product_image_8.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>white armchair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="chair" class="container tab-pane fade mb-6"><br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 p-0">
+                                    <div class="bg-light product-wrapper">
+
+                                        <img src="./images/product_image_3.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>white plastic chair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <div class="bg-light product-wrapper mx-2">
+
+                                        <img src="./images/product_image_4.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>black plastic chair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <div class="bg-light product-wrapper mx-2">
+
+                                        <img src="./images/product_image_5.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>yellow armless chair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <div class="bg-light product-wrapper mx-2">
+
+                                        <img src="./images/product_image_6.jpg" height="270" width="250" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <p>Decore Furniture</p>
+                                                <h4>white folding chair</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of tab section -->
+
+    <!-- start of special offer section -->
+
+    <div class="special-offer">
+        <div class="special-offer-text">
+            <h4>Special offer</h4>
+            <h1>decore furniture</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni, debitis
+                inventore itaque voluptates sunt aperiam iusto omnis exercitationem
+                animi ipsa corrupti iste nesciunt voluptatem esse deserunt! Amet, maxime earum.
+            </p>
+            <button>discover now</button>
+        </div>
+    </div>
+
+
+    <!-- end of special offer section -->
+
+
+    <!-- start of arrow slider -->
+
+    <div class="container arrow-margin">
+        <div class="row d-flex justify-content-around">
+            <div class="tab-text col-md-6">
+                <h2>top sellers</h2>
+                <p>lorem ipsumdolor sit amet consectetur</p>
+            </div>
+            <div class="section-title col-md-6">
+                <!-- Nav pills -->
+                <ul class="nav nav-pills arrows" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link nav-tabs active" data-toggle="pill" href="#left-arrow"><i
+                                class="fas fa-long-arrow-alt-left"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-tabs" data-toggle="pill" href="#right-arrow"><i
+                                class="fas fa-long-arrow-alt-right"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="row  d-flex justify-content-center">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="left-arrow" class="container tab-pane active mb-6"><br>
+                        <div class="container ">
+                            <div class="row tabrow leftArrow">
+                                <div class="col-md-6 p-0 ">
+                                    <div class=" product-wrapper">
+
+                                        <img src="./images/product_2x.jpg" height="250" width="500" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>wood seating bench</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <button>buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 p-0 ">
+                                    <div class=" product-wrapper">
+
+                                        <img src="./images/product_2x-02.jpg" height="250" width="500" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>modern seating sofa</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$219</span>
+                                                <del>$270</del>
+                                                <button>buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="right-arrow" class="container tab-pane fade mb-6"><br>
+                        <div class="container">
+                            <div class="row rightArrow">
+                                <div class="col-6 p-0">
+                                    <div class="bg-light product-wrapper mx-2">
+
+                                        <img src="./images/product_2x-01.jpg" height="250" width="500" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>modern single sofa</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$119</span>
+                                                <del>$182</del>
+                                                <button>buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 p-0">
+                                    <div class="product-wrapper mx-2">
+
+                                        <img src="./images/product_2x-03.jpg" height="250" width="500" alt="">
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spread">
+                                                <h4>black leather sofa</h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$219</span>
+                                                <del>$270</del>
+                                                <button>buy now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end of arrow slider -->
+
+    <!-- start of sping sale slider -->
+
+    <div class="container-fluid spring-sale">
+
+        <div class="row  d-flex justify-content-center">
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="first" class="container tab-pane active mb-6"><br>
+                    <div class="container ">
+                        <div class="row tabrow first">
+                            <div class="col-md-12 p-0 ">
+                                <div class=" product-wrapper">
+
+                                    <img src="./images/flash_sales_1.png" alt="">
+                                    <div class="product-content-wrapper">
+                                        <div class="product-title-spread">
+                                            <h5>spring sale</h5>
+                                            <h1>wood adirondak</h1>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores,
+                                                itaque,
+                                                ipsum incidunt nam assumenda explicabo beatae distinctio cupiditate
+                                                corporis,
+                                                commodi error laboriosam porro corrupti illum harum dolores id ex eos.
+                                            </p>
+                                            <span>$699</span>
+                                            <del>$985</del>
+                                            <button>add to cart</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="second" class="container tab-pane fade mb-6"><br>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 p-0">
+                                <div class="product-wrapper mx-2">
+
+                                    <img src="./images/flash_sales_2.png" alt="">
+                                    <div class="product-content-wrapper">
+                                        <div class="product-title-spread">
+                                            <h5>spring sale</h5>
+                                            <h1>folding sofa feeding chair</h1>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores,
+                                                itaque,
+                                                ipsum incidunt nam assumenda explicabo beatae distinctio cupiditate
+                                                corporis,
+                                                commodi error laboriosam porro corrupti illum harum dolores id ex eos.
+                                            </p>
+                                            <p>$509</p>
+                                            <del>$685</del>
+                                            <button>add to cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="third" class="container tab-pane fade mb-6"><br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 p-0">
+                                <div class="product-wrapper mx-2">
+
+                                    <img src="./images/flash_sales_3.png" alt="">
+                                    <div class="product-content-wrapper">
+                                        <div class="product-title-spread">
+                                            <h5>spring sale</h5>
+                                            <h1>sofa chair leather fabric</h1>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores,
+                                                itaque,
+                                                ipsum incidunt nam assumenda explicabo beatae distinctio cupiditate
+                                                corporis,
+                                                commodi error laboriosam porro corrupti illum harum dolores id ex eos.
+                                            </p>
+                                            <p>$609</p>
+                                            <del>$985</del>
+                                            <button>add to cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-title pb-2 col-md-12">
+                <!-- Nav pills -->
+                <ul class="nav nav-pills spring-sale-circle" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link nav-tabs active" data-toggle="pill" href="#first"><i
+                                class="fas fa-circle"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-tabs" data-toggle="pill" href="#second"><i class="far fa-circle"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-tabs" data-toggle="pill" href="#third"><i class="far fa-circle"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- </div> -->
+
+    <!-- end of sping sale slider-->
+
+
+    <!-- start of news feed -->
+
+
+    <div class="container news-margin">
+        <div class="news-text">
+            <h2>news feed</h2>
+            <p>lorem ipsum dolor sit amet, consectetur</p>
+        </div>
+        <div class="row  d-flex justify-content-center">
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="left-circle" class="container tab-pane active mb-6"><br>
+                    <div class="container ">
+                        <div class="row tabrow blog">
+                            <div class="col-md-4 p-0 ">
+                                <div class=" product-wrapper">
+
+                                    <img src="./images/blog_post_1.jpg" height="200" width="350" alt="">
+                                    <div class="product-content-wrapper">
+                                        <div class="product-title-spread">
+                                            <h4>A Meetup for People for e-Commerce Buisness</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, eaque!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 p-0 ">
+                                <div class=" product-wrapper mx-auto">
+
+                                    <img src="./images/blog_post_2.jpg" height="200" width="350" alt="">
+                                    <div class="product-content-wrapper">
+                                        <div class="product-title-spread">
+                                            <h4>A Meetup for People for e-Commerce Buisness</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, eaque!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-0 ">
+                                <div class=" product-wrapper mx-auto">
+
+                                    <img src="./images/blog_post_3.jpg" height="200" width="350" alt="">
+                                    <div class="product-content-wrapper">
+                                        <div class="product-title-spread">
+                                            <h4>A Meetup for People for e-Commerce Buisness</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, eaque!
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="right-circle" class="container tab-pane fade mb-6"><br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 p-0">
+                                <div class="product-wrapper mx-2">
+
+                                    <img src="./images/blog_post_1.jpg" height="200" width="350" alt="">
+                                    <div class="product-content-wrapper">
+                                        <div class="product-title-spread">
+                                            <h4>A Meetup for People for e-Commerce Buisness</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, eaque!
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-0">
+                                <div class="product-wrapper mx-2">
+
+                                    <img src="./images/blog_post_2.jpg" height="200" width="350" alt="">
+                                    <div class="product-content-wrapper">
+                                        <div class="product-title-spread">
+                                            <h4>A Meetup for People for e-Commerce Buisness</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, eaque!
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-0">
+                                <div class="product-wrapper mx-2">
+
+                                    <img src="./images/blog_post_3.jpg" height="200" width="350" alt="">
+                                    <div class="product-content-wrapper">
+                                        <div class="product-title-spread">
+                                            <h4>A Meetup for People for e-Commerce Buisness</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, eaque!
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title col-md-12 d-flex justify-content-center align-items-center mt-4">
+            <!-- Nav pills -->
+            <ul class="nav nav-pills circle" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link nav-tabs active" data-toggle="pill" href="#left-circle"><i
+                            class="far fa-circle"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-tabs" data-toggle="pill" href="#right-circle"><i
+                            class="far fa-circle"></i></a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- end of news  feed -->
+
+
+
+    <!-- start of brand slider -->
+
+    <div id="carouselExampleIndicators brand-carosel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active text-danger"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="text-danger"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item brand active">
+                <img class=" " src="./images/brands_1.jpg" alt="First slide">
+                <img class=" " src="./images/brands_2.jpg" alt="First slide">
+                <img class="" src="./images/brands_3.jpg" alt="First slide">
+                <img class=" " src="./images/brands_1.jpg" alt="First slide">
+                <img class=" " src="./images/brands_2.jpg" alt="First slide">
+                <img class="" src="./images/brands_3.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item brand'">
+                <img class=" " src="./images/brands_1.jpg" alt="First slide">
+                <img class=" " src="./images/brands_2.jpg" alt="First slide">
+                <img class="" src="./images/brands_3.jpg" alt="First slide">
+                <img class=" " src="./images/brands_1.jpg" alt="First slide">
+                <img class=" " src="./images/brands_2.jpg" alt="First slide">
+                <img class="" src="./images/brands_3.jpg" alt="First slide">
+                <img class=" " src="./images/brands_1.jpg" alt="First slide">
+                <img class=" " src="./images/brands_2.jpg" alt="First slide">
+                <img class="" src="./images/brands_3.jpg" alt="First slide">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- end of slider -->
+
+    <!-- start of newsletter -->
+
+    <div class="container-fluid newsletter">
+        <div class="row">
+            <div class="col-md-12 newsletter-text">
+                <h6>newsletter</h6>
+                <h2>get discount 30% off</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex hic
+                    consequuntur atque reiciendis esse perspiciatis animi nisi pariatur placeat.
+                </p>
+                <div class="input-group  mb-3">
+                    <input type="text" class="form-control" placeholder="Enter Your Email"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">Button</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of newsletter -->
+
+    <!-- start of footer -->
+    <div class="footer">
+        <div class="footer-text">
+            <span>© 2019 Company, Inc.</span>
+            <span>Privacy</span>
+            <span>• Terms</span>
+        </div>
+        <div class="footer-icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-skype"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </div>
+
+    <!-- end of footer -->
+
+    <!-- start of top button -->
+    <div class="top-icon">
+        <a href="#top">
+            <i class="fas fa-long-arrow-alt-up"></i>
+        </a>
+    </div>
+    <!-- end of top button -->
+
+    <!-- start of fixed button(dark & setting) -->
+    <div class="fixed-button">
+        <p>dark</p>
+        <i class="fas fa-cogs"></i>
+    </div>
+    <!-- end of fixed button(dark & setting) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
